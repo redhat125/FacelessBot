@@ -1,0 +1,19 @@
+.right-algo-content{
+	color:red;
+	width:20%;
+	height:100%;
+	z-index: 10;
+	background-color: #fff;
+	padding:70px 10px 10px 10px;
+	box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+}
+.right-algo-content-hidden{
+	position:fixed;
+	top:0px;
+	right:-20%;
+}
+.right-algo-content-show{
+	position:fixed;
+	top:0px;
+	right:0%;
+}

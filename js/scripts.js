@@ -128,4 +128,17 @@ $(function() {
         $('a[data-action="close"]').on("click", function() {
             $(this).closest(".card").removeClass().slideUp("fast");
         });
+
+        //nav click
+        $(".menu-nav-link").on("click", function() {
+            togglePageWrapper($(this).attr('id'));
+        });
+
+        $(".close-algo-flow").on("click", function() {
+            $(this).parent().parent().slideUp();
+        });
+
+        $(".algo-outer-card").on("click", function() {
+            toggleAlgoNav($(this).attr('id'));
+        });
 });
